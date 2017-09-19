@@ -2,12 +2,13 @@ version: 0.1
 
 phases:
     build:
-        commans:
-            - echo Nothing to do yet
+        commands:
+            - npm install
+            - npm run webpack
 artifacts:
     files:
         - '*.html'
         - favicon.ico
         - main.css
         - css/*
-        - js/*
+        - dist/bundle.js
