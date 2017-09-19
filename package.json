@@ -1,0 +1,32 @@
+{
+  "name": "cloudguru-serverless",
+  "version": "1.0.0",
+  "description": "My portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack",
+    "webpack-watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesnorth/cloudguru-serverless.git"
+  },
+  "keywords": [],
+  "author": "James North <jamesnorth2104@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamesnorth/cloudguru-serverless/issues"
+  },
+  "homepage": "https://github.com/jamesnorth/cloudguru-serverless#readme",
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^3.6.0"
+  }
+}
